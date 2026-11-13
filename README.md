@@ -12,14 +12,14 @@ It can be used for practicing data analysis, data visualization, Excel, SQL, Pyt
 
 ## 🎯 Project Objectives
 
-- Data entry, import, and basic organization using tables
-- Data cleaning: find/remove duplicates, handle missing/inconsistent data, correct formatting errors, and validate data
-- Remove the column that contains irrelevant data if it exists
-- Application of Excel formulas for calculations, summaries, and logical/text operations
-- Use the XLOOKUP/VLOOKUP functions to combine the tables.
-- Use of Pivot Tables for advanced summarization
-- Descriptive statistics (mean, median, mode, standard deviation, etc.) using formulas or Analysis ToolPak
-- Data visualization: create at least three chart types, build an interactive dashboard, and use basic PivotCharts
+1. Data entry, import, and basic organization using tables
+2. Data cleaning: find/remove duplicates, handle missing/inconsistent data, correct formatting errors, and validate data
+3. Remove the column that contains irrelevant data if it exists
+4. Application of Excel formulas for calculations, summaries, and logical/text operations
+5. Use the XLOOKUP/VLOOKUP functions to combine the tables.
+6. Use of Pivot Tables for advanced summarization
+7. Descriptive statistics (mean, median, mode, standard deviation, etc.) using formulas or Analysis ToolPak
+8. Data visualization: create at least three chart types, build an interactive dashboard, and use basic PivotCharts
 
 
 
@@ -41,8 +41,8 @@ The dataset contains the following columns:
 
 Formula Used:-
 
--**=IF(ISBLANK([@[Loyalty_Level]]),"Platinum",[Loyalty_Level])**
--**=PROPER(TRIM(B2))**
+**=IF(ISBLANK([@[Loyalty_Level]]),"Platinum",[Loyalty_Level])**
+**=PROPER(TRIM(B2))**
 
 <img width="1287" height="582" alt="image" src="https://github.com/user-attachments/assets/c0e63952-8e11-410a-bb5e-fd5bf89095cd" />
 
@@ -50,8 +50,8 @@ Formula Used:-
 
 Formula Used:-
 
--**=ROUND(IF(ISBLANK([@Cost]),AVERAGE([Cost]),[@Cost]),0)**
--**=IF(ISBLANK([@Stock]),"0",[@Stock])**
+**=ROUND(IF(ISBLANK([@Cost]),AVERAGE([Cost]),[@Cost]),0)**
+**=IF(ISBLANK([@Stock]),"0",[@Stock])**
 
 <img width="1540" height="537" alt="image" src="https://github.com/user-attachments/assets/a43a17f5-8406-4ce7-b93c-8b6c2ad06521" />
 
@@ -59,10 +59,10 @@ Formula Used:-
 
 Formula Used:-
 
--**=IF(ISBLANK([@Quantity]),"Unknown",[@Quantity])**
--**=ROUND(IF(ISBLANK([@[Unit_Price]]),AVERAGE([Unit_Price]),[@[Unit_Price]]),0)**
--**=IF(ISBLANK([@Discount]),"0",[@Discount])**
--**=IF(ISBLANK([@[Total_Amount]]),"Unknown",[@[Total_Amount]])**
+**=IF(ISBLANK([@Quantity]),"Unknown",[@Quantity])**
+**=ROUND(IF(ISBLANK([@[Unit_Price]]),AVERAGE([Unit_Price]),[@[Unit_Price]]),0)**
+**=IF(ISBLANK([@Discount]),"0",[@Discount])**
+**=IF(ISBLANK([@[Total_Amount]]),"Unknown",[@[Total_Amount]])**
 
 <img width="1887" height="432" alt="image" src="https://github.com/user-attachments/assets/51792550-d4a1-4a6d-8564-2dc2106ca0da" />
 
@@ -78,10 +78,10 @@ Formula Used:-
 
 Formula Used:-
 
--**=VLOOKUP([@[Customer_ID]],Customer_DB[[#All],[Customer_ID]:[State]],7,)**
--**=VLOOKUP([@[Product_ID]],Product_DB[#All],9,)**
--**=VLOOKUP([@[Store_ID]],Store_DB[#All],3,)**
--**=VLOOKUP([@[Customer_ID]],Customer_DB[[#All],[Customer_ID]:[Gender]],5,)**
+**=VLOOKUP([@[Customer_ID]],Customer_DB[[#All],[Customer_ID]:[State]],7,)**
+**=VLOOKUP([@[Product_ID]],Product_DB[#All],9,)**
+**=VLOOKUP([@[Store_ID]],Store_DB[#All],3,)**
+**=VLOOKUP([@[Customer_ID]],Customer_DB[[#All],[Customer_ID]:[Gender]],5,)**
 
 <img width="1872" height="396" alt="image" src="https://github.com/user-attachments/assets/5047fd72-d762-4e57-b84d-c5efa9e54002" />
 
@@ -101,13 +101,13 @@ Formula Used:-
 
 Formula Used:-
 
--**=SUM(Sales_DB[Column1])**
--**=MIN(Sales_DB[Column1])**
--**=MAX(Sales_DB[Column1])**
--**=AVERAGE(Sales_DB[Column1])**
--**=MEDIAN(Sales_DB[Column1]**)
--**=COUNTIF(Sales_DB[Column1],">=500")**
--**=STDEV.S(Sales_DB[Column1])**
+**=SUM(Sales_DB[Column1])**
+**=MIN(Sales_DB[Column1])**
+**=MAX(Sales_DB[Column1])**
+**=AVERAGE(Sales_DB[Column1])**
+**=MEDIAN(Sales_DB[Column1]**)
+**=COUNTIF(Sales_DB[Column1],">=500")**
+**=STDEV.S(Sales_DB[Column1])**
 
 <img width="476" height="200" alt="image" src="https://github.com/user-attachments/assets/f63f3224-8b1d-4375-9303-0d6610152fad" />
 
@@ -121,14 +121,14 @@ Formula Used:-
 ##**Key Learnings**
 Through this project, I practiced:
 
-- statistical analysis
-- Mathematical and Aggregate functions.
-- Text functions.
-- Power Query using Remove duplicates.
-- Data imputation using ISBLANK in Numerical and Categorical.
-- Data Cleaning and Analysis
-- Pivot Tables and Charts
-- Dash board Designing
+1. statistical analysis
+2. Mathematical and Aggregate functions.
+3. Text functions.
+4. Power Query using Remove duplicates.
+5. Data imputation using ISBLANK in Numerical and Categorical.
+6. Data Cleaning and Analysis
+7. Pivot Tables and Charts
+8. Dash board Designing
 
 
 ## 👤 Author
