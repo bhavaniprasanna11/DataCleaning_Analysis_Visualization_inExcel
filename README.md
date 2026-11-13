@@ -1,4 +1,4 @@
-<img width="470" height="193" alt="image" src="https://github.com/user-attachments/assets/69bfaac5-28bb-4383-b39d-976b7a465391" /><img width="1682" height="391" alt="image" src="https://github.com/user-attachments/assets/4f181b7a-29c4-4c2f-a76b-8fcc49ad3665" /># DataCleaning_Analysis_Visualization_inExcel
+## “Data Cleaning, Analysis & Visualization with Excel” ##
 
 
 # 📦 E-commerce store dataset
