@@ -32,7 +32,6 @@ This dataset can be used with:
   📂 Dataset Description
 The dataset contains the following columns:
 <img width="837" height="182" alt="image" src="https://github.com/user-attachments/assets/a69f7efc-5a12-432e-be8d-371496558455" />
-<img width="1236" height="500" alt="image" src="https://github.com/user-attachments/assets/040114c9-a4d4-48d8-a436-279e3b3a5322" />
 <img width="692" height="192" alt="image" src="https://github.com/user-attachments/assets/9aa8c7cd-ed9e-41f1-bd4b-a4e404008cc0" />
 <img width="977" height="220" alt="image" src="https://github.com/user-attachments/assets/e736d247-7971-4d37-80ee-a4f7c68166b8" />
 
@@ -91,8 +90,11 @@ Formula Used:-
 ● Created Pivot Tables for advanced summarization functions like finding the Total sales Region wise and State wise, Gender wise Average sales and Count. Top 5 States Sales.
 
 <img width="486" height="165" alt="image" src="https://github.com/user-attachments/assets/88309d5c-8d82-48e8-a5f5-52876e20d338" />
+
 <img width="480" height="147" alt="image" src="https://github.com/user-attachments/assets/4d6f2a72-19f6-4b94-9863-710d69392754" />
+
 <img width="302" height="170" alt="image" src="https://github.com/user-attachments/assets/8119d626-74ef-4707-babf-3e41249dc89e" />
+
 <img width="307" height="557" alt="image" src="https://github.com/user-attachments/assets/a761e129-ca46-496a-a971-ddb6fe6e255a" />
 
 **Descriptive Statistics:-**
